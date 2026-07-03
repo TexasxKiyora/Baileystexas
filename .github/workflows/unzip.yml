@@ -1,0 +1,24 @@
+name: Extract and Cleanup Zip
+
+on:
+  push:
+    paths:
+      - '**.zip' # 1. Pemicu: saat ada file .zip di-upload
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # Mengambil kode repository
+      - name: Unzip and Cleanup
+        run: |
+          # 2. Proses: cari dan ekstrak semua file .zip
+          find . -name "*.zip" -exec unzip -o {} \;
+          # 3. Pembersihan: hapus semua file .zip
+          find . -name "*.zip" -delete
+          # 4. Commit & Push: kirim perubahan kembali
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto-unzip and cleanup" || echo "No changes to commit"
+          git push
