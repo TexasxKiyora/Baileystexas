@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-# Yt: Fyxzpediaa
+# Yt: KiyoraHost
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
@@ -20,15 +20,15 @@ Built on WebSocket for speed, stability, and full multi-device support.
 
 <br/>
 
-[Installation](#getting-started) [Documentation](#sendmessage-documentation) [Features](#main-features) [Telegram](https://t.me/Fyxzpedia)
+[Installation](#getting-started) [Documentation](#sendmessage-documentation) [Features](#main-features) [Telegram](https://t.me/KiyoraElvirex)
 
 </div>
 
 ---
 
-## What is @Fyxzpediaa/Baileys?
+## What is @TexasxKiyora/Baileystexas?
 
-**@Fyxzpediaa/Baileys** is a powerful, open-source library for developers who need reliable WhatsApp automation without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons all in a lightweight and modular package.
+**@TexasxKiyora/Baileystexas** is a powerful, open-source library for developers who need reliable WhatsApp automation without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons all in a lightweight and modular package.
 
 Actively maintained with continuous improvements to **pairing stability**, **session management**, and **WhatsApp multi-device compatibility**.
 
